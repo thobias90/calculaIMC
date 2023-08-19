@@ -48,12 +48,14 @@
             android:id="@+id/calcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="calcularOnClick"
             android:text="CALCULAR" />
 
         <Button
             android:id="@+id/limpar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="limparOnClick"
             android:text="LIMPAR" />
 
     </LinearLayout>
